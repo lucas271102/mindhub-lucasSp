@@ -30,6 +30,7 @@ h2{
 
 section > p{
     font-size: x-large;
+    display: flex;
 
 }
 footer{
@@ -66,13 +67,8 @@ justify-content: space-evenly;
     
     
  }
- /*about us*/
- .about-us {
-    
-    margin-left: 600px;
-    font-size: xx-large;
-
- }
+ 
+ 
  .box > img{
     margin-left: 20px;
     display: inline-block;

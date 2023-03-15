@@ -1,11 +1,9 @@
  section >img{
     width: 400px;
     height: 400px;
-    margin-left: 30px;
-    margin-right: 30px;
-    display: inline;
+    justify-content: space-evenly;
     box-shadow: 10px 5px 5px black;
-    position: sticky;
+    
 }
 
 h2{
@@ -19,4 +17,28 @@ h2{
 section> img:hover{
     transform: translate(10px, 20%);
     transition: all 1s ease;
+}
+.list{
+    padding: 20px;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  
+.about-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-us > img{
+    width: 50%;
+}
+.know-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
