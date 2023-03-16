@@ -23,10 +23,7 @@ nav > a{
     border-radius: 5px;
     margin-left: 20px;
 }
-h2{
-    
-    margin-left: 50rem;
-}
+
 
 section > p{
     font-size: x-large;
@@ -258,6 +255,9 @@ h1,h2{
       width: 92%;
    }
    section > img {
+      width: 100%;
+   }
+   .about-us > img{
       width: 100%;
    }
 }
