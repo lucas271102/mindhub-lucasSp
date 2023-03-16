@@ -10,10 +10,10 @@ header{
     background-color: black;
     color: aliceblue;
     box-shadow: 10px 5px 5px black;
+    justify-content: space-around;
+    
 }
-h1{
-    margin-left: 30px;
-}
+
 nav > a{
     text-decoration: none;
     color: orange;
@@ -44,7 +44,7 @@ footer{
 
 
  .nav-list{
-    margin-left: 450px;
+    margin-left: 45px;
     padding: 30px;
     transition:all ease;
     
@@ -85,7 +85,8 @@ footer{
                   -20px -20px 60px black;
  }
  .contact-p{
-    margin-left: 40vh;
+    display: flex;
+   
  }
  /* schedule table */
 
@@ -116,6 +117,7 @@ footer{
    background-color: white;
  }
  section >img{
+   
    width: 400px;
    height: 400px;
    justify-content: space-evenly;
@@ -223,8 +225,39 @@ section> img:hover{
    flex-direction: row;
 }
 /* raffle*/
- .data-first, form { display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+h1,h2{
+   text-align: center;
+}
+ form{padding: 1rem;}
+   
+@media only screen and (min-width:300px) and (max-width:767px){
+   header{
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   }
+  h1, nav, nav > a{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: .2rem;
+   }
+   .box {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+   }
+   .box > img{
+      width: 80%;
+      
+   }
+   .benefits-card{
+      width: 92%;
+   }
+   section > img {
+      width: 100%;
+   }
 }
