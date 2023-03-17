@@ -1,3 +1,9 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+
 body{ 
     font-family: 'Barlow', sans-serif;
     background: rgb(2,0,36);
@@ -96,9 +102,9 @@ footer{
  }
  table{
     
-   background-color: white;
-    width: 100%;
-    height: 600px;
+   
+    width: 92%;
+    height: 500px;
     padding: 5rem;
 
  }
@@ -110,9 +116,7 @@ footer{
    font-size: xx-large;
    color: black;
  }
- tbody{
-   background-color: white;
- }
+ 
  section >img{
    
    width: 400px;
@@ -227,7 +231,7 @@ h1,h2{
 }
  form{padding: 1rem;}
    
-@media only screen and (min-width:300px) and (max-width:767px){
+@media only screen and (min-width:320px) and (max-width:767px){
    header{
     
     flex-direction: column;
@@ -248,7 +252,7 @@ h1,h2{
       width: 100%;
    }
    .box > img{
-      width: 80%;
+      width: 75%;
       
    }
    .benefits-card{
@@ -259,5 +263,10 @@ h1,h2{
    }
    .about-us > img{
       width: 100%;
+   }
+ table{
+      width: 50%;
+      padding: 0;
+      backface-visibility: hidden;
    }
 }
