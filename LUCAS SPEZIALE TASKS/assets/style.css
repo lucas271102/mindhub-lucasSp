@@ -6,8 +6,7 @@
 
 body{ 
     font-family: 'Barlow', sans-serif;
-    background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,171,2,0.9724264705882353) 35%);
+    background-color: darkorange;
     color: white;
 }
 /*home*/
@@ -79,8 +78,8 @@ footer{
  }
  /*pagina de contacto*/
  p> img{
-    height: 400px;
-    width: 400px;
+    height: 25%3;
+    width: 25%;
     display: inline-block;
     border-radius: 50px;
     background: #e0e0e0;
@@ -130,7 +129,9 @@ h2{
    
    font-size: xx-large;
    display: flex;
-   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   
    
 }
 
@@ -228,8 +229,25 @@ section> img:hover{
 /* raffle*/
 h1,h2{
    text-align: center;
+
 }
- form{padding: 1rem;}
+fieldset{
+   width: 50%;
+   height:fit-content;
+   background-color: floralwhite;
+}
+
+ form{
+
+   display: flex;
+   color: black;
+   width: 90%;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-size: xx-large;
+   padding: 1rem;}
+    
    
 @media only screen and (min-width:320px) and (max-width:767px){
    header{
@@ -264,9 +282,14 @@ h1,h2{
    .about-us > img{
       width: 100%;
    }
- table{
+ table, th, tr{
       width: 50%;
       padding: 0;
       backface-visibility: hidden;
+      
+      
+   }
+   .contact > p, a{
+      flex-direction: column;
    }
 }
